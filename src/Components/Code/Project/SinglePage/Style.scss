@@ -1,0 +1,11 @@
+.products{
+    display: flex;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid gray;
+    .leftCon{
+        width: 60%;
+    }
+    .rightCon{
+        width: 50%;
+    }
+}

@@ -8,7 +8,7 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 
 const ProductOfferTable = () => {
   return (
-    <TableContainer style={{border: '2px solid silver', marginRight:"1rem", boxShadow:"5px 5px 10px silver"}}>
+    <TableContainer style={{border: '2px solid silver', marginRight:"1rem", boxShadow:"2px 2px 10px silver", borderRadius:"5px"}}>
       <Table sx={{Width: 300, borderRadius: "10px" }} size="small" >
         <TableRow>
           <TableCell><span  style={{color:"red", fontWeight:"bold", fontSize: "18px"}}><ApiIcon /> Save Extra: </span>  with 4 offers</TableCell>

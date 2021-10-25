@@ -12,8 +12,8 @@ const ProductReview4 = () => {
           style={{
             display: "flex",
             alignItems: "center",
-            paddingBottom: "2rem",
-            paddingTop: "1rem",
+            paddingBottom: "1rem",
+            paddingTop: "2.5rem",
           }}
         >
           <div
@@ -21,9 +21,11 @@ const ProductReview4 = () => {
               display: "flex",
               alignItems: "center",
               backgroundColor: "green",
+              color:"white",
               fontWeight: "bold",
-              padding: "3px",
+              padding: "3px 7px 3px 7px",
               margin: "10px",
+              marginBottom:"5rem"
             }}
           >
             <p>5</p>
@@ -57,7 +59,7 @@ const ProductReview4 = () => {
           >
             Report abuse
           </Button>
-          <h3>312 people voted.</h3>
+          <h5>162 people voted.</h5>
         </div>
       </div>
       <hr />

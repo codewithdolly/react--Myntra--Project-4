@@ -1,6 +1,5 @@
 import * as React from "react";
 import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableRow from "@mui/material/TableRow";
@@ -9,7 +8,7 @@ import CelebrationIcon from '@mui/icons-material/Celebration';
 
 const ProductOfferTable = () => {
   return (
-    <TableContainer style={{border: '2px solid silver'}}>
+    <TableContainer style={{border: '2px solid silver', marginRight:"1rem", boxShadow:"5px 5px 10px silver"}}>
       <Table sx={{Width: 300, borderRadius: "10px" }} size="small" >
         <TableRow>
           <TableCell><span  style={{color:"red", fontWeight:"bold", fontSize: "18px"}}><ApiIcon /> Save Extra: </span>  with 4 offers</TableCell>

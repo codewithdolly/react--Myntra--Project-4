@@ -13,17 +13,19 @@ const ProductReview5 = () => {
             display: "flex",
             alignItems: "center",
             paddingBottom: "2rem",
-            paddingTop: "1rem",
+            paddingTop: "3rem",
           }}
         >
           <div
-            style={{
+             style={{
               display: "flex",
               alignItems: "center",
               backgroundColor: "green",
+              color:"white",
               fontWeight: "bold",
-              padding: "3px",
+              padding: "3px 7px 3px 7px",
               margin: "10px",
+              marginBottom:"1rem"
             }}
           >
             <p>5</p>
@@ -52,7 +54,7 @@ const ProductReview5 = () => {
           >
             Report abuse
           </Button>
-          <h3>312 people voted.</h3>
+          <h5>64 people voted.</h5>
         </div>
       </div>
       <hr />

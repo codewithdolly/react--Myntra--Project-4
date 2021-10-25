@@ -3,6 +3,7 @@ import StarBorderIcon from "@mui/icons-material/StarBorder";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ReportIcon from "@mui/icons-material/Report";
 import { Button } from "@mui/material";
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const ProductReview6 = () => {
   return (
@@ -13,7 +14,7 @@ const ProductReview6 = () => {
             display: "flex",
             alignItems: "center",
             paddingBottom: "2rem",
-            paddingTop: "1rem",
+            paddingTop: "3rem",
           }}
         >
           <div
@@ -21,9 +22,11 @@ const ProductReview6 = () => {
               display: "flex",
               alignItems: "center",
               backgroundColor: "green",
+              color:"white",
               fontWeight: "bold",
-              padding: "3px",
+              padding: "3px 7px 3px 7px",
               margin: "10px",
+              marginBottom:".7rem"
             }}
           >
             <p>5</p>
@@ -53,10 +56,11 @@ const ProductReview6 = () => {
           >
             Report abuse
           </Button>
-          <h3>312 people voted.</h3>
+          <h5>32 people voted.</h5>
         </div>
       </div>
       <hr />
+      <Button variant="outlined" fullWidth sx={{mt:2, mr:1}} endIcon={<KeyboardArrowDownIcon />}>Show More</Button>
     </div>
   );
 };

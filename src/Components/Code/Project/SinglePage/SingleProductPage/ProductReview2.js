@@ -17,7 +17,7 @@ const ProductReview2 = () => {
           style={{
             display: "flex",
             alignItems: "center",
-            paddingBottom: "2rem",
+            paddingBottom: "1rem",
             paddingTop: "2rem",
           }}
         >
@@ -26,12 +26,14 @@ const ProductReview2 = () => {
               display: "flex",
               alignItems: "center",
               backgroundColor: "green",
+              color:"white",
               fontWeight: "bold",
-              padding: "3px",
+              padding: "3px 7px 3px 7px",
               margin: "10px",
+              marginBottom:"2rem"
             }}
           >
-            <p>5</p>
+            <p>4</p>
             <StarBorderIcon />
           </div>
           <p>
@@ -59,7 +61,7 @@ const ProductReview2 = () => {
           >
             Report abuse
           </Button>
-          <h3>312 people voted.</h3>
+          <h5>142 people voted.</h5>
         </div>
       </div>
       <hr />

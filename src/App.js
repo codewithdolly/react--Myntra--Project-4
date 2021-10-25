@@ -1,11 +1,13 @@
 // import Index from "./Components/Code/Project/Index";
-import SingleProduct from "./Components/Code/Project/SingleItem/SingleProject/SingleProduct";
+import SinglePage from "./Components/Code/Project/SinglePage/SingleProduct"
+
+
 
 function App() {
   return (
     <div className="App">
       {/* <Index /> */}
-      <SingleProduct />
+      <SinglePage />
       
     </div>
   );

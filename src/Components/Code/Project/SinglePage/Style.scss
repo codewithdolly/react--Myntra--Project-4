@@ -9,3 +9,17 @@
         width: 50%;
     }
 }
+
+.review{
+    display: flex;
+    padding: 1rem;
+    padding-bottom: 5rem;
+    border: 1px solid gray;
+    .leftCon{
+        width: 60%;
+        margin-right: 30px;
+    }
+    .rightCon{
+        width: 50%;
+    }
+}

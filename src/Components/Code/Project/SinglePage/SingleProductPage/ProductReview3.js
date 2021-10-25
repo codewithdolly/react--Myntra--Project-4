@@ -12,8 +12,8 @@ const ProductReview3 = () => {
           style={{
             display: "flex",
             alignItems: "center",
-            paddingBottom: "2rem",
-            paddingTop: "1rem",
+            paddingBottom: "1rem",
+            paddingTop: "2.5rem",
           }}
         >
           <div
@@ -21,12 +21,14 @@ const ProductReview3 = () => {
               display: "flex",
               alignItems: "center",
               backgroundColor: "green",
+              color:"white",
               fontWeight: "bold",
-              padding: "3px",
+              padding: "3px 7px 3px 7px",
               margin: "10px",
+              marginBottom:"1rem"
             }}
           >
-            <p>5</p>
+            <p>4.5</p>
             <StarBorderIcon />
           </div>
           <p>The product is exactly same as in pictures. The quality is great and is full value for money.</p>
@@ -49,7 +51,7 @@ const ProductReview3 = () => {
           >
             Report abuse
           </Button>
-          <h3>312 people voted.</h3>
+          <h5>42 people voted.</h5>
         </div>
       </div>
       <hr />

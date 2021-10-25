@@ -31,7 +31,7 @@ const SingleProduct = () => {
         </div>
       </div>
 
-      <div className="products">
+      <div className="review">
       <div className="leftCon">
         <ProductQuestion />
       </div>

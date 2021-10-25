@@ -1,0 +1,51 @@
+$productHeader-Color: rgba(0, 0, 0, 0.74);
+
+
+.productDeal{
+    padding: 3rem;
+    color: $productHeader-Color;
+}
+
+.products{
+    margin-left: 3%;
+    margin-right:3%;
+    padding-top: .5rem;
+    display: flex;
+.productImg{
+    padding-right: 40px;
+}
+}
+
+.products2{
+    margin-top: 4rem;
+}
+
+.boxImg{
+    width: 100%;
+}
+
+
+.boxImg1{
+ margin-right: 80px;   
+}
+
+#boxImg--2ndImg{
+    margin-top: -3px;
+}
+
+.ProductOffer{
+    margin-right: 40px;
+}
+
+.productImg{
+    margin-bottom: -1px;
+}
+
+.productImg2{
+    margin-top: 10px;
+}
+
+
+#productImg2nd{
+    margin-top: 1rem;
+}

@@ -1,0 +1,71 @@
+.filterItems{
+    padding: 20px;
+    padding-top: 0;
+    // margin-left: 5px;
+    border: 2px solid rgba(192, 192, 192, 0.637);
+    .filterItems--short{
+        display: flex;
+        align-items: center;
+        .numbersOfItems{
+            color: silver;
+        }
+    }
+    .cotegories{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgba(0, 0, 0, 0.856);
+    }
+}
+.clothcolor{
+    padding: 12px;
+    margin-right: 7px;
+    border-radius: 50%;
+    border: .5px solid black;
+    box-shadow: 1px 1px 5px silver;
+}
+
+.numbersOfItems2{
+    color: rgba(255, 0, 0, 0.897);
+}
+
+#blackColor{
+    @extend.clothcolor;
+    background-color: black;
+    border: .5px solid white;
+}
+
+#redColor{
+    @extend.clothcolor;
+    background-color: red;
+}
+
+#blueColor{
+    @extend.clothcolor;
+    background-color: blue;
+}
+
+#greenColor{
+    @extend.clothcolor;
+    background-color: springgreen;
+}
+
+#pinkColor{
+    @extend.clothcolor;
+    background-color: pink;
+}
+
+#goldColor{
+    @extend.clothcolor;
+    background-color: gold;
+}
+
+#silverColor{
+    @extend.clothcolor;
+    background-color: silver;
+}
+
+#brownColor{
+    @extend.clothcolor;
+    background-color: brown;
+}

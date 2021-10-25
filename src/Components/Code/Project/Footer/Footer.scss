@@ -1,0 +1,62 @@
+.footer{
+    padding: 5% 10% 5% 15% ;
+    background-color: rgba(192, 192, 192, 0.26);
+    display: flex;
+    justify-content: space-around;
+    .footer--row{
+        margin-left: 40px;
+    }
+}
+p{
+    font-size: 13px;
+}
+h3{
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.appStore{
+    margin-right: 10px;  
+}
+
+.social{
+    margin-top: 20px;
+}
+
+.social1{
+    color: rgb(112, 110, 110);
+    margin-right: 3px;
+}
+.que{
+    display: flex;
+    height: 40px;
+}
+
+.quality{
+    font-size: 18px;
+    color: rgb(95, 94, 94);
+
+}
+
+.footer2{
+    background-color:rgba(192, 192, 192, 0.26);
+    padding-bottom: 1%;
+}
+.break{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.coteagry{
+    font-size: 14px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    justify-content: space-between;
+}
+
+.que2{
+  padding: 4px;
+}

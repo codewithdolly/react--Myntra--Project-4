@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"name": "hicoder1",
+			"path": "c:\\Users\\SAMHITHA\\Desktop\\hicoder1"
+		},
+		{
+			"name": "practice",
+			"path": "c:\\Users\\SAMHITHA\\Desktop\\practice"
+		},
+		{
+			"name": "first pro",
+			"path": "c:\\Users\\SAMHITHA\\Desktop\\first pro"
+		},
+		{
+			"name": "demo-app",
+			"path": "..\\..\\demo-app"
+		},
+		{
+			"name": "Mission 30",
+			"path": "c:\\Users\\SAMHITHA\\Desktop\\Mission 30"
+		},
+		{
+			"name": "clock",
+			"path": "c:\\Users\\SAMHITHA\\Desktop\\clock"
+		},
+		{
+			"path": "c:\\Users\\SAMHITHA\\Desktop\\reactJs"
+		},
+		{
+			"path": "..\\..\\New folder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practice"
+	}
+}

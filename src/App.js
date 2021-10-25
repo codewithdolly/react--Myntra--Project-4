@@ -1,13 +1,12 @@
-
-// import Text from './Components/Code/Projects/text';
-import { Button } from "@mui/material";
-import Index from "./Components/Code/Project/Index";
-
+// import Index from "./Components/Code/Project/Index";
+import SingleProduct from "./Components/Code/Project/SingleItem/SingleProject/SingleProduct";
 
 function App() {
   return (
     <div className="App">
-      <Index />
+      {/* <Index /> */}
+      <SingleProduct />
+      
     </div>
   );
 }

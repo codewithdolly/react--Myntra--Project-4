@@ -1,7 +1,7 @@
 import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 
@@ -20,7 +20,7 @@ const Notification = () => {
         aria-label="icon label tabs example"
       >
         <Tab icon={<PersonOutlineOutlinedIcon />} label="Profile" />
-        <Tab icon={<FavoriteBorderOutlinedIcon />} label="Wishlist" />
+        <Tab icon={<FavoriteBorderIcon />} label="Wishlist" />
         <Tab icon={<ShoppingBagOutlinedIcon />} label="Bag" />
       </Tabs>
     </div>

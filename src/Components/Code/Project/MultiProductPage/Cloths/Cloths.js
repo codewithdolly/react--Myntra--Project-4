@@ -1,6 +1,6 @@
 import React from "react";
 import "./Index2.scss"
-import Header from "../Header/Header";
+import Header from "../../Header/Header";
 import MiniNavbar from "./MiniNavbar/MiniNavbar";
 import FilterItems from "../FilterItems/FilterItems";
 import FilterWithBrand from "../FilterItems/FilterWithBrand";

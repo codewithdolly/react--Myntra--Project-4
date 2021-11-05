@@ -29,7 +29,16 @@ const CardsObj= [
         Price: "RS : 745.00",
         realPrice: "₹1000.00",
         rating: "(632)",
-    },    
+    },
+    
+    
+    {
+        imageURL: process.env.PUBLIC_URL+"../Images/dress16.png",
+    typography: 'Line kurti',
+    Price: "RS : 549.00",
+    realPrice: "₹3999.00",
+    rating: "(752)",
+    },
 
 ];
 

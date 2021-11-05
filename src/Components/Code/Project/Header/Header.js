@@ -11,7 +11,7 @@ import Notification from "./Notification/Notification";
 import SearchBar from './SearchBar/SearchBar';
 
 
-export default function ButtonAppBar() {
+const ButtonAppBar=()=> {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: 'white', color: "black"}}>
@@ -23,7 +23,6 @@ export default function ButtonAppBar() {
             aria-label="menu"
             sx={{ mr: 2 }}
           >
-            {/* <MenuIcon /> */}
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           <img src={Logo} alt="" width= "40"/>
@@ -36,3 +35,5 @@ export default function ButtonAppBar() {
     </Box>
   );
 }
+
+export default ButtonAppBar;

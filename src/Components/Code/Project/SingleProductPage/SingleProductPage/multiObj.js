@@ -4,13 +4,13 @@ import ProductReview2 from './ProductReview2';
 
 const multiObj=()=> {
     return (
-        <div>
+        <>
             <ProductReview2 multi= {ProductReviewobj[0]} />
             <ProductReview2 multi= {ProductReviewobj[1]} />
             <ProductReview2 multi= {ProductReviewobj[2]} />
             <ProductReview2 multi= {ProductReviewobj[3]} />
             <ProductReview2 multi= {ProductReviewobj[5]} />
-        </div>
+        </>
     )
 }
 export default multiObj;

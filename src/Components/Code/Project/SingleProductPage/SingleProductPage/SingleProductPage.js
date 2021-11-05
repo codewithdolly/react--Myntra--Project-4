@@ -13,7 +13,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 
  const SimgleProductPage=()=> {
   return (
-    <div>
+    <>
     <ImageList
       sx={{ width: 770, p:2, pr:4}}
       variant="quilted"
@@ -30,7 +30,7 @@ function srcset(image, size, rows = 1, cols = 1) {
         </ImageListItem>
       ))}
     </ImageList>
-    </div>
+    </>
   );
 }
 

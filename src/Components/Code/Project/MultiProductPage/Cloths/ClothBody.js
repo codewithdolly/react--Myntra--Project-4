@@ -6,7 +6,7 @@ import MultiCards3 from "./Cards3/MultiCards3";
 
 const ClothBody = (multi) => {
   return (
-    <div>
+    <>
       <div className="ClothBody">
         <MultiCards />
         <MultiCards2 />
@@ -15,7 +15,7 @@ const ClothBody = (multi) => {
         <MultiCards3 />
         <MultiCards2 />
       </div>
-    </div>
+    </>
   );
 };
 

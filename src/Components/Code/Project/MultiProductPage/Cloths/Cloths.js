@@ -12,7 +12,7 @@ import PaginationLink from "./PaginationLink/PaginationLink";
 
 const Cloths = () => {
   return (
-    <div>
+    <>
       <Header />
       <MiniNavbar />
       <div className="body2">
@@ -28,7 +28,7 @@ const Cloths = () => {
          <PaginationLink />
         </div>
       </div>
-    </div>
+    </>
  
   );
 };

@@ -14,7 +14,7 @@ import ProductQuestion from "./SingleProductPage/ProductQuestion";
 
 const SingleProduct = () => {
   return (
-    <div>
+    <>
       <Header />
       <div>
         <Breadcrumb />
@@ -41,7 +41,7 @@ const SingleProduct = () => {
         </div>
       </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

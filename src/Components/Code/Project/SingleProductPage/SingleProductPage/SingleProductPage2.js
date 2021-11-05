@@ -7,7 +7,7 @@ import StarIcon from "@mui/icons-material/Star";
 
 function SingleProductPage2() {
   return (
-    <div className="">
+    <>
       <Button href="#Choli" color="primary">
         Brand: Anara
       </Button>
@@ -37,7 +37,7 @@ function SingleProductPage2() {
         </Box>
         <hr />
       </div>
-    </div>
+    </>
   );
 }
 

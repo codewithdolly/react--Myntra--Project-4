@@ -7,8 +7,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const ProductReview6 = () => {
   return (
-    <div>
-      <div>
+    <>
         <div
           style={{
             display: "flex",
@@ -58,10 +57,9 @@ const ProductReview6 = () => {
           </Button>
           <h5>32 people voted.</h5>
         </div>
-      </div>
       <hr />
       <Button variant="outlined" fullWidth sx={{mt:2, mr:1}} endIcon={<KeyboardArrowDownIcon />}>Show More</Button>
-    </div>
+    </>
   );
 };
 

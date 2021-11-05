@@ -10,7 +10,7 @@ import ProductReview6 from "./ProductReview6"
 
 const ProductReview2 = () => {
   return (
-    <div>
+    <>
       <h2>Customer Rewiews(358)</h2>
       <div>
         <div
@@ -70,7 +70,7 @@ const ProductReview2 = () => {
       <ProductReview5 />
       <ProductReview6 />
       
-    </div>
+    </>
   );
 };
 

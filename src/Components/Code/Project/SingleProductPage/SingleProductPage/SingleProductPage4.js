@@ -8,7 +8,7 @@ import Image3 from "../../Images/contact.png";
 
 function SingleProductPage4() {
     return (
-        <div>
+        <>
             <div style={{display:"flex", paddingTop:"2rem"}}>
             <h3>DELIVERY OPTIONS</h3><span> <DriveEtaIcon /></span>
             </div>
@@ -46,7 +46,7 @@ function SingleProductPage4() {
             </ul>
             <div style={{paddingTop:"1.5rem", color:"#ff3e6c"}}>See More</div>
             <br /><hr /><br />
-        </div>
+        </>
     )
 }
 

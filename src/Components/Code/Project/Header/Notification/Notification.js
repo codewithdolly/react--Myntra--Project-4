@@ -13,7 +13,7 @@ const Notification = () => {
   };
 
   return (
-    <div>
+    <>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -23,7 +23,7 @@ const Notification = () => {
         <Tab icon={<FavoriteBorderIcon />} label="Wishlist" />
         <Tab icon={<ShoppingBagOutlinedIcon />} label="Bag" />
       </Tabs>
-    </div>
+    </>
   );
 };
 export default Notification;

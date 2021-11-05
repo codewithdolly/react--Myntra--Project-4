@@ -12,7 +12,7 @@ import Footer2 from "./Footer2";
 
 const Footer = () => {
   return (
-    <div>
+    <>
       <div className="footer">
         <div>
           <h3>ONLINE SHOPPING</h3>
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
       </div>
       <Footer2 />
-    </div>
+    </>
   );
 };
 export default Footer;

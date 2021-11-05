@@ -3,7 +3,7 @@ import TextField from "@mui/material/TextField";
 
 function ProductQuestion() {
   return (
-    <div>
+    <>
       <div style={{ padding: "3rem" }}>
         <h1>Have a question?</h1>
         <p>Find answers in product info, Q&As, reviews</p>
@@ -75,7 +75,7 @@ function ProductQuestion() {
           <p> the flair of lehenga is around 2.5 mtr - 2.6 mtr</p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

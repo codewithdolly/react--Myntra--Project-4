@@ -5,7 +5,7 @@ import StarHalfIcon from "@mui/icons-material/StarHalf";
 
 function ProductReview() {
   return (
-    <div>
+    <>
       <div style={{ display: "flex", paddingTop: "2rem",paddingButtom: "2rem"  }}>
         <h3>RATINGS</h3>
         <span style={{ color: "#ff3e6c" }}>
@@ -58,7 +58,7 @@ function ProductReview() {
         </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

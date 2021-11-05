@@ -6,12 +6,12 @@ import Footer from "./Footer/Footer";
 
 const Index = () => {
   return (
-    <div>
+    <>
       <Header />
       <HomeImage />
       <Products />
       <Footer />
-    </div>
+    </>
   );
 };
 export default Index;

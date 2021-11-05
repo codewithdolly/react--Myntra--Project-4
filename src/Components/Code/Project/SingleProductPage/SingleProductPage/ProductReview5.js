@@ -6,8 +6,7 @@ import { Button } from "@mui/material";
 
 const ProductReview5 = () => {
   return (
-    <div>
-      <div>
+    <>
         <div
           style={{
             display: "flex",
@@ -56,9 +55,8 @@ const ProductReview5 = () => {
           </Button>
           <h5>64 people voted.</h5>
         </div>
-      </div>
       <hr />
-    </div>
+    </>
   );
 };
 

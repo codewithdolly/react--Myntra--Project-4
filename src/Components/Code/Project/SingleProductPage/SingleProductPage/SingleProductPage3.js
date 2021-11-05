@@ -7,7 +7,7 @@ import { Typography } from "@mui/material";
 
 const SingleProductPage3 = () => {
   return (
-    <div>
+    <>
       <h2>
         Rs. 899 <span className="realPrice">Rs. 3599</span>
         <span className="productOffer"> (75% OFF)</span>
@@ -61,7 +61,7 @@ const SingleProductPage3 = () => {
         </p>
       </div>
       <hr />
-    </div>
+    </>
   );
 };
 

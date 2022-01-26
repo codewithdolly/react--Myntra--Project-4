@@ -1,10 +1,10 @@
-import * as React from 'react';
+import React, {useState} from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 
 const Navbar=()=> {
-  const [value, setValue] = React.useState('one');
+  const [value, setValue] = useState('one');
 
   const handleChange = (event, newValue) => {
     setValue(newValue);

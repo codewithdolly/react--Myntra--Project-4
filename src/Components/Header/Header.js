@@ -6,9 +6,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Logo from "../Images/Logo.png";
-import Navbar from "./Navbar/Navbar";
-import Notification from "./Notification/Notification";
-import SearchBar from './SearchBar/SearchBar';
+import Navbar from "./Navbar";
+import Notification from "./Notification";
+import SearchBar from './SearchBar';
 
 
 const ButtonAppBar=()=> {

@@ -1,11 +1,11 @@
 import React from "react";
 import "./Products.scss";
 import Grid from "@mui/material/Grid";
-import ProductOffer1 from "../../Images/d1.png";
-import ProductOffer2 from "../../Images/d2.png";
-import ProductOffer3 from "../../Images/d3.png";
-import ProductOffer4 from "../../Images/d4.png";
-import ProductOffer5 from "../../Images/d5.png";
+import ProductOffer1 from "../Images/d1.png";
+import ProductOffer2 from "../Images/d2.png";
+import ProductOffer3 from "../Images/d3.png";
+import ProductOffer4 from "../Images/d4.png";
+import ProductOffer5 from "../Images/d5.png";
 
 const ProductsBestDeal = () => {
   return (

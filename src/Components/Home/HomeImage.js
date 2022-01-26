@@ -1,12 +1,12 @@
 import React from "react";
 import "./HomeImage.scss";
-import homeImg1 from "../../Images/home Img1.png";
-import homeImg4 from "../../Images/offer.png";
-import homeImg5 from "../../Images/home img5.png";
-import homeImg6 from "../../Images/home Img6.png";
-import homeImg7 from "../../Images/home7.png";
-import ProductsBestDeal from "../Products/ProductsBestDeal";
-import ProductsInBudget from "../Products/ProductsInBudget";
+import homeImg1 from "../Images/home Img1.png";
+import homeImg4 from "../Images/offer.png";
+import homeImg5 from "../Images/home img5.png";
+import homeImg6 from "../Images/home Img6.png";
+import homeImg7 from "../Images/home7.png";
+import ProductsBestDeal from "./ProductsBestDeal";
+import ProductsInBudget from "./ProductsInBudget";
 
 
 const HomeImage = () => {

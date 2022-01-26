@@ -1,16 +1,16 @@
 import React from "react";
 import "./Products.scss";
 import Box from "@mui/material/Box";
-import budgetImgOffer1 from "../../Images/b1.png";
-import budgetImgOffer2 from "../../Images/b2.png";
-import budgetImgOffer3 from "../../Images/b3.png";
-import budgetImgOffer4 from "../../Images/b4.png";
-import budgetImgOffer5 from "../../Images/b5.png";
-import budgetImgOffer6 from "../../Images/b6.png";
-import budgetImgOffer7 from "../../Images/b7.png";
-import budgetImgOffer8 from "../../Images/b8.png";
-import budgetImgOffer9 from "../../Images/b9.png";
-import budgetImgOffer10 from "../../Images/b10.png";
+import budgetImgOffer1 from "../Images/b1.png";
+import budgetImgOffer2 from "../Images/b2.png";
+import budgetImgOffer3 from "../Images/b3.png";
+import budgetImgOffer4 from "../Images/b4.png";
+import budgetImgOffer5 from "../Images/b5.png";
+import budgetImgOffer6 from "../Images/b6.png";
+import budgetImgOffer7 from "../Images/b7.png";
+import budgetImgOffer8 from "../Images/b8.png";
+import budgetImgOffer9 from "../Images/b9.png";
+import budgetImgOffer10 from "../Images/b10.png";
 
 const ProductsInBudget = () => {
   return (

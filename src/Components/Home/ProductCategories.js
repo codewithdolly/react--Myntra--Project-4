@@ -1,18 +1,18 @@
 import React from "react";
 import "./Products.scss";
 import Box from "@mui/material/Box";
-import roundImg1 from "../../Images/r1.png";
-import roundImg2 from "../../Images/r2.png";
-import roundImg3 from "../../Images/r3.png";
-import roundImg4 from "../../Images/r4.png";
-import roundImg5 from "../../Images/r5.png";
-import roundImg6 from "../../Images/r6.png";
-import roundImg7 from "../../Images/r7.png";
-import roundImg8 from "../../Images/r8.png";
-import roundImg9 from "../../Images/r9.png";
-import roundImg10 from "../../Images/r10.png";
-import roundImg11 from "../../Images/r11.png";
-import roundImg12 from "../../Images/r12.png";
+import roundImg1 from "../Images/r1.png";
+import roundImg2 from "../Images/r2.png";
+import roundImg3 from "../Images/r3.png";
+import roundImg4 from "../Images/r4.png";
+import roundImg5 from "../Images/r5.png";
+import roundImg6 from "../Images/r6.png";
+import roundImg7 from "../Images/r7.png";
+import roundImg8 from "../Images/r8.png";
+import roundImg9 from "../Images/r9.png";
+import roundImg10 from "../Images/r10.png";
+import roundImg11 from "../Images/r11.png";
+import roundImg12 from "../Images/r12.png";
 
 const ProductCategories = () => {
   return (

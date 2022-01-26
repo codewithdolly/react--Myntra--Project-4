@@ -1,9 +1,9 @@
 import React from "react";
 import "./Products.scss";
-import productImg1 from "../../Images/1.png";
-import productImg2 from "../../Images/2.png";
-import productImg3 from "../../Images/3.png";
-import productImg5 from "../../Images/4.png";
+import productImg1 from "../Images/1.png";
+import productImg2 from "../Images/2.png";
+import productImg3 from "../Images/3.png";
+import productImg5 from "../Images/4.png";
 
 const ProductsDeals = () => {
   return (

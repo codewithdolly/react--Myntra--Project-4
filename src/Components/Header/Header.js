@@ -1,4 +1,9 @@
 import * as React from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 import "./Header.scss";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -9,10 +14,13 @@ import Logo from "../Images/Logo.png";
 import Navbar from "./Navbar";
 import Notification from "./Notification";
 import SearchBar from './SearchBar';
+import { MultiProductPage, SingleProductPage } from '..';
 
 
-const ButtonAppBar=()=> {
+const Header=()=> {
   return (
+    <>
+      <BrowserRouter>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: 'white', color: "black"}}>
         <Toolbar>
@@ -33,7 +41,11 @@ const ButtonAppBar=()=> {
         </Toolbar>
       </AppBar>
     </Box>
+    {/* <MultiProductPage />
+    <SingleProductPage /> */}
+    </BrowserRouter>
+    </>
   );
 }
 
-export default ButtonAppBar;
+export default Header;

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Index2.scss"
-import Header from "../../Header/Header";
 import MiniNavbar from "./MiniNavbar/MiniNavbar";
 import FilterItems from "../FilterItems/FilterItems";
 import FilterWithBrand from "../FilterItems/FilterWithBrand";
@@ -13,7 +12,6 @@ import PaginationLink from "./PaginationLink/PaginationLink";
 const Cloths = () => {
   return (
     <>
-      <Header />
       <MiniNavbar />
       <div className="body2">
         <div className="leftSide">

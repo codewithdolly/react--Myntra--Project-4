@@ -1,7 +1,5 @@
 import React from "react";
 import "./Style.scss"
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 import Breadcrumb from "./Breadcrumb";
 import SingleProductPage from "./SingleProductPage/SingleProductPage";
 import SingleProductPage2 from "./SingleProductPage/SingleProductPage2";
@@ -15,7 +13,6 @@ import ProductQuestion from "./SingleProductPage/ProductQuestion";
 const SingleProduct = () => {
   return (
     <>
-      <Header />
       <div>
         <Breadcrumb />
       </div>
@@ -40,7 +37,6 @@ const SingleProduct = () => {
           <ProductReview2 />
         </div>
       </div>
-      <Footer />
     </>
   );
 };

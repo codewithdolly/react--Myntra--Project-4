@@ -2,7 +2,7 @@ import React from "react";
 import "./Style.scss"
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Breadcrumb from "./SingleProductPage/Breadcrumb";
+import Breadcrumb from "./Breadcrumb";
 import SingleProductPage from "./SingleProductPage/SingleProductPage";
 import SingleProductPage2 from "./SingleProductPage/SingleProductPage2";
 import SingleProductPage3 from "./SingleProductPage/SingleProductPage3";

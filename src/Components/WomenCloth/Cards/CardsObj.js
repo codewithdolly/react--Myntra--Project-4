@@ -1,6 +1,6 @@
 const CardsObj= [
        {
-        imageURL: process.env.PUBLIC_URL+"../Images/dress5.png",
+        imageURL: process.env.PUBLIC_URL+"./Images/dress5.png",
     typography: 'Angrakha kurti',
     Price: "RS : 1500.00",
     realPrice: "₹5000.00",

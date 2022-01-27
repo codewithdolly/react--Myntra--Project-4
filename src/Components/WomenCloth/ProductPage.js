@@ -1,12 +1,12 @@
 import React from 'react'
-import Cloths from './Cloths';
+import WomenCloth from './WomenCloth';
 import ClothBody from './ClothBody';
 import "./Index2.scss"
 
 const index2=()=> {
     return (
         <div className="body2">
-                <Cloths />
+                <WomenCloth />
              
         </div>
     )

@@ -13,7 +13,7 @@ import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import SearchBar from "./SearchBar";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import { MultiProductPage, SingleProductPage, WomenCloth } from "..";
+import { MultiProductPage, SingleProductPage, WomenCloth, Home } from "..";
 
 const Header = () => {
   const [value, setValue] = useState(0);
@@ -38,9 +38,7 @@ const Header = () => {
                 aria-label="menu"
                 sx={{ mr: 2 }}
               ></IconButton>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                <img src={Logo} alt="" width="40" />
-              </Typography>
+              <Link to="/"> <img src={Logo} alt="" width="40" /></Link>
               {/* Navbar starts */}
               <Box sx={{ width: "100%", pl: 5 }}>
                 <Link to="/man" className="header--navbar">
@@ -77,7 +75,7 @@ const Header = () => {
           </AppBar>
         </Box>
         <Routes>
-          <Route path="/" element={<Header />} />
+          <Route path="/" element={<Home />} />
           <Route path="/women" element={<WomenCloth />} />
         </Routes>
         {/* <MultiProductPage />

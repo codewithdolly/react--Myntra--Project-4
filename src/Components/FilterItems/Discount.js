@@ -3,7 +3,6 @@ import "./Style.scss";
 import IconButton from "@mui/material/IconButton";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Radio from "@mui/material/Radio";
-const label = { inputProps: { "aria-label": "Checkbox demo" } };
 
 function FilterWithBrand() {
   return (

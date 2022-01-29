@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
-import "./App.scss"
+import "./App.scss";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,7 +15,6 @@ import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
 import {
-  Header,
   Footer,
   SingleProductPage,
   WomenCloth,
@@ -73,8 +72,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-
-      {/* Header starts */}
+        {/* Header starts */}
         <Box sx={{ flexGrow: 1 }} className="header">
           <AppBar
             position="static"
@@ -170,10 +168,9 @@ function App() {
         </Routes>
         {/* <SingleProductPage /> */}
         {/* <Header /> */}
-      {/* <Home /> */}
-      <Footer />
+        {/* <Home /> */}
+        <Footer />
       </BrowserRouter>
-     
     </div>
   );
 }

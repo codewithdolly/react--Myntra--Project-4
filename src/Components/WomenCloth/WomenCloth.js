@@ -6,8 +6,8 @@ import FilterWithBrand from "../FilterItems/FilterWithBrand";
 import FilterWithPrice from "../FilterItems/FilterWithPrice";
 import FilterWithColor from "../FilterItems/FilterWithColor";
 import Discount from "../FilterItems/Discount";
-import ClothBody from "./ClothBody";
 import PaginationLink from "./PaginationLink/PaginationLink";
+import LadiesCloths from "./LadiesCloths/LadiesCloths";
 
 const Cloths = () => {
   return (
@@ -22,7 +22,7 @@ const Cloths = () => {
           <Discount />
         </div>
         <div className="rightSide">
-         <ClothBody />
+         <LadiesCloths />
          <PaginationLink />
         </div>
       </div>

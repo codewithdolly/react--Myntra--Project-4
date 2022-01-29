@@ -9,11 +9,11 @@ const ClothBody = (multi) => {
     <>
       <div className="ClothBody">
         <MultiCards />
-        <MultiCards2 />
+        {/* <MultiCards2 />
         <MultiCards3 />
         <MultiCards />
         <MultiCards3 />
-        <MultiCards2 />
+        <MultiCards2 /> */}
       </div>
     </>
   );

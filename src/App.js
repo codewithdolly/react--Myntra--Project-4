@@ -14,12 +14,7 @@ import Tab from "@mui/material/Tab";
 import { styled, alpha } from "@mui/material/styles";
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
-import {
-  Footer,
-  SingleProductPage,
-  WomenCloth,
-  Home,
-} from "./Components";
+import { Footer, SingleProductPage, Home, ProductsPage } from "./Components";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -164,7 +159,11 @@ function App() {
         </Box>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/women" element={<WomenCloth />} />
+          <Route path="/man" element={<ProductsPage />} />
+          <Route path="/women" element={<ProductsPage />} />
+          <Route path="/kids" element={<ProductsPage />} />
+          <Route path="/homeandliving" element={<ProductsPage />} />
+          <Route path="/beauty" element={<ProductsPage />} />
         </Routes>
         {/* <SingleProductPage /> */}
         {/* <Header /> */}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./MiniNavbar.scss";
+import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Filter from "./Filter";
@@ -8,7 +9,7 @@ const MiniNavbar = () => {
   return (
     <div className="miniNav">
       <p>
-        Home / <b>Women's Fashion Store</b>
+       <Link to="/" style={{textDecoration:"none"}} ><b>Home</b></Link> / <b>Women's Fashion Store</b>
       </p>
       <p className="womenStore">
         Women's Fashion Store <span className="items">- 626950 items</span>

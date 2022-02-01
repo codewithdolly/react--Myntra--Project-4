@@ -5,7 +5,7 @@ export {default as SingleProduct} from "./SingleProduct";
 export {default as ProductsPage} from "./ProductsPage";
 export {default as MansProductsPage} from "./MansProductsPage"
 export {default as KidsProductsPage} from "./KidsProductsPage"
-// export {default as KidsProductsPage} from "./KidsProductsPage"
+export {default as HomeAndBeautyProductsPage} from "./HomeAndBeautyProductsPage"
 // export {default as KidsProductsPage} from "./KidsProductsPage"
 // export {default as KidsProductsPage} from "./KidsProductsPage"
 // export {default as KidsProductsPage} from "./KidsProductsPage"

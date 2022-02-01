@@ -2,9 +2,9 @@ import React from 'react'
 import DriveEtaIcon from '@mui/icons-material/DriveEta';
 import TextField from '@mui/material/TextField';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import Image1 from "../../Images/return.png";
-import Image2 from "../../Images/devivery.png";
-import Image3 from "../../Images/contact.png";
+import Image1 from "../Images/return.png";
+import Image2 from "../Images/devivery.png";
+import Image3 from "../Images/contact.png";
 
 function SingleProductPage4() {
     return (

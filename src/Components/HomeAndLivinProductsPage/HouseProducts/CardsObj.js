@@ -1,7 +1,7 @@
 const CardsObj = [
   {
-    imageURL: process.env.PUBLIC_URL + "./Images/dress5.png",
-    typography: "Angrakha kurti",
+    imageURL: process.env.PUBLIC_URL + "./Images/h5.png",
+    typography: "Sofa",
     Price: "RS : 1500.00",
     realPrice: "₹5000.00",
     rating: "(576)",
@@ -9,8 +9,8 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress11.png",
-    typography: "Printed kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h11.png",
+    typography: "Love Decorator",
     Price: "RS : 999.00",
     realPrice: "₹1500.00",
     rating: "(432)",
@@ -18,8 +18,8 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress16.png",
-    typography: "Line kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h16.png",
+    typography: "Lites Symbol",
     Price: "RS : 549.00",
     realPrice: "₹3999.00",
     rating: "(752)",
@@ -27,8 +27,8 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress9.png",
-    typography: "Flard kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h9.png",
+    typography: "Lites Decorator",
     Price: "RS : 745.00",
     realPrice: "₹1000.00",
     rating: "(632)",
@@ -36,16 +36,16 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress16.png",
-    typography: "Line kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h16.png",
+    typography: "Lite Decorator",
     Price: "RS : 549.00",
     realPrice: "₹3999.00",
     rating: "(752)",
     id: 5,
   },
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress13.png",
-    typography: "Angrakha Top",
+    imageURL: process.env.PUBLIC_URL + "../Images/h13.png",
+    typography: "Angrakha Flour",
     Price: "RS : 1500.00",
     realPrice: "₹5000.00",
     rating: "(576)",
@@ -53,8 +53,8 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress1.png",
-    typography: "White Top",
+    imageURL: process.env.PUBLIC_URL + "../Images/h1.png",
+    typography: "White Flour",
     Price: "RS : 599.00",
     realPrice: "₹1490.00",
     rating: "(42)",
@@ -62,15 +62,15 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress10.png",
-    typography: "Flard lignt blue Top",
+    imageURL: process.env.PUBLIC_URL + "../Images/h10.png",
+    typography: "Watch",
     Price: "RS : 755.00",
     realPrice: "₹2050.00",
     rating: "(132)",
   },
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress11.png",
-    typography: "Printed kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h11.png",
+    typography: "Printed Decorator",
     Price: "RS : 999.00",
     realPrice: "₹1500.00",
     rating: "(432)",
@@ -78,8 +78,8 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress16.png",
-    typography: "Line kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h16.png",
+    typography: "Lite Decorator",
     Price: "RS : 549.00",
     realPrice: "₹3999.00",
     rating: "(752)",
@@ -87,8 +87,8 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress9.png",
-    typography: "Flard kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h9.png",
+    typography: "Flard Decorator",
     Price: "RS : 745.00",
     realPrice: "₹1000.00",
     rating: "(632)",
@@ -96,42 +96,132 @@ const CardsObj = [
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress8.png",
-    typography: "Black Top",
+    imageURL: process.env.PUBLIC_URL + "../Images/h8.png",
+    typography: "Black Flour",
     Price: "RS : 1559.00",
     realPrice: "₹3999.00",
     rating: "(1272)",
   },
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress14.png",
-    typography: "plain dark kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h14.png",
+    typography: "plain dark Decorator",
     Price: "RS : 389.00",
     realPrice: "₹2000.00",
     rating: "(599)",
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress15.png",
-    typography: "Black printed kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h15.png",
+    typography: "Black  Decorator",
     Price: "RS : 949.00",
     realPrice: "₹2999.00",
     rating: "(1152)",
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress7.png",
-    typography: "Printed kurti",
+    imageURL: process.env.PUBLIC_URL + "../Images/h7.png",
+    typography: "Printed Decorator",
     Price: "RS : 745.00",
     realPrice: "₹1500.00",
     rating: "(62)",
   },
 
   {
-    imageURL: process.env.PUBLIC_URL + "../Images/dress2.png",
-    typography: "Printed dress",
+    imageURL: process.env.PUBLIC_URL + "../Images/h11.png",
+    typography: "Printed h",
     Price: "RS : 879.00",
     realPrice: "₹6500.00",
     rating: "(43)",
+  },
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h9.png",
+    typography: "White Flour",
+    Price: "RS : 599.00",
+    realPrice: "₹1490.00",
+    rating: "(42)",
+    id: 7,
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h10.png",
+    typography: "flower",
+    Price: "RS : 755.00",
+    realPrice: "₹2050.00",
+    rating: "(132)",
+  }, {
+    imageURL: process.env.PUBLIC_URL + "../Images/h8.png",
+    typography: "White Flour",
+    Price: "RS : 599.00",
+    realPrice: "₹1490.00",
+    rating: "(42)",
+    id: 7,
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h7.png",
+    typography: "Watch",
+    Price: "RS : 755.00",
+    realPrice: "₹2050.00",
+    rating: "(132)",
+  }, {
+    imageURL: process.env.PUBLIC_URL + "../Images/h6.png",
+    typography: "White Flour",
+    Price: "RS : 599.00",
+    realPrice: "₹1490.00",
+    rating: "(42)",
+    id: 7,
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h5.png",
+    typography: "Watch",
+    Price: "RS : 755.00",
+    realPrice: "₹2050.00",
+    rating: "(132)",
+  }, {
+    imageURL: process.env.PUBLIC_URL + "../Images/h4.png",
+    typography: "White Flour",
+    Price: "RS : 599.00",
+    realPrice: "₹1490.00",
+    rating: "(42)",
+    id: 7,
+  },
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h3.png",
+    typography: "Watch",
+    Price: "RS : 755.00",
+    realPrice: "₹2050.00",
+    rating: "(132)",
+  }, {
+    imageURL: process.env.PUBLIC_URL + "../Images/h16.png",
+    typography: "White Flour",
+    Price: "RS : 599.00",
+    realPrice: "₹1490.00",
+    rating: "(42)",
+    id: 7,
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h3.png",
+    typography: "Watch",
+    Price: "RS : 755.00",
+    realPrice: "₹2050.00",
+    rating: "(132)",
+  }, {
+    imageURL: process.env.PUBLIC_URL + "../Images/h2.png",
+    typography: "White Flour",
+    Price: "RS : 599.00",
+    realPrice: "₹1490.00",
+    rating: "(42)",
+    id: 7,
+  },
+
+  {
+    imageURL: process.env.PUBLIC_URL + "../Images/h1.png",
+    typography: "Watch",
+    Price: "RS : 755.00",
+    realPrice: "₹2050.00",
+    rating: "(132)",
   },
 ];
 

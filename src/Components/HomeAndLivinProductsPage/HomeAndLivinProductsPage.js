@@ -9,7 +9,7 @@ import Discount from "../FilterItems/Discount";
 import PaginationLink from "./PaginationLink/PaginationLink";
 import LadiesCloths from "./LadiesCloths/LadiesCloths";
 
-const HomeAndBeautyProductsPage = () => {
+const HomeAndLivinProductsPage = () => {
   return (
     <>
       <MiniNavbar />
@@ -31,4 +31,4 @@ const HomeAndBeautyProductsPage = () => {
   );
 };
 
-export default HomeAndBeautyProductsPage;
+export default HomeAndLivinProductsPage;

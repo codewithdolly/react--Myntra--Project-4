@@ -1,12 +1,12 @@
 import React from "react";
-import "./LadiesCloths.scss";
+import "./KidsCloths.scss";
 import CardsObj from "./CardsObj";
 import SingleCard from "./SingleCard";
 import Grid from "@mui/material/Grid";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 
-const LadiesCloths = () => {
+const KidsCloths = () => {
   const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
     padding: theme.spacing(1),
@@ -32,4 +32,4 @@ const LadiesCloths = () => {
     </div>
   );
 };
-export default LadiesCloths;
+export default KidsCloths;

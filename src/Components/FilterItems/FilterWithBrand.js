@@ -45,7 +45,7 @@ function FilterWithBrand() {
             <p>earings <span className="numbersOfItems">(7)</span></p>
             </div>
 
-            <center className="numbersOfItems2">+ 3 more</center>
+            <center className="numbersOfItems2">+ 14 more</center>
         </div>
         </div>
     )

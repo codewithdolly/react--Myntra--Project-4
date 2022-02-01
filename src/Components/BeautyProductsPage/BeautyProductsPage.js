@@ -7,7 +7,7 @@ import FilterWithPrice from "../FilterItems/FilterWithPrice";
 import FilterWithColor from "../FilterItems/FilterWithColor";
 import Discount from "../FilterItems/Discount";
 import PaginationLink from "./PaginationLink/PaginationLink";
-import LadiesCloths from "./LadiesCloths/LadiesCloths";
+import BeautyItems from "./BeautyItems/BeautyItems";
 
 const BeautyProductsPage = () => {
   return (
@@ -22,7 +22,7 @@ const BeautyProductsPage = () => {
           <Discount />
         </div>
         <div className="rightSide">
-         <LadiesCloths />
+         <BeautyItems />
          <PaginationLink />
         </div>
       </div>

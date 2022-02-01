@@ -164,6 +164,7 @@ function App() {
           <Route path="/kids" element={<ProductsPage />} />
           <Route path="/homeandliving" element={<ProductsPage />} />
           <Route path="/beauty" element={<ProductsPage />} />
+          <Route path="/singlepage" element={<SingleProductPage />} />
         </Routes>
         {/* <SingleProductPage /> */}
         {/* <Header /> */}

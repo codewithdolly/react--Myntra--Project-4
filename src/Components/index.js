@@ -6,6 +6,4 @@ export {default as ProductsPage} from "./ProductsPage";
 export {default as MansProductsPage} from "./MansProductsPage"
 export {default as KidsProductsPage} from "./KidsProductsPage"
 export {default as HomeAndLivinProductsPage} from "./HomeAndLivinProductsPage"
-// export {default as KidsProductsPage} from "./KidsProductsPage"
-// export {default as KidsProductsPage} from "./KidsProductsPage"
-// export {default as KidsProductsPage} from "./KidsProductsPage"
+export {default as BeautyProductsPage} from "./BeautyProductsPage"

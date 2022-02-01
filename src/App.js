@@ -123,6 +123,13 @@ function App() {
                     className="header--navbar--nav"
                   />
                 </Link>
+                <Link to="/singlepage" className="header--navbar">
+                  <Tab
+                    value="singlepage"
+                    label="Single Page"
+                    className="header--navbar--nav"
+                  />
+                </Link>
               </Box>
               {/* Navbar ends */}
 

@@ -42,7 +42,7 @@ const Search = styled("div")(({ theme }) => ({
 
 const SearchIconWrapper = styled("div")(({ theme }) => ({
   padding: theme.spacing(0, 2),
-  height: "90%",
+  height: "100%",
   position: "absolute",
   pointerEvents: "none",
   display: "flex",
@@ -53,12 +53,13 @@ const SearchIconWrapper = styled("div")(({ theme }) => ({
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: "inherit",
   "& .MuiInputBase-input": {
-    padding: theme.spacing(1, 0),
+    padding: theme.spacing(2, 2, 2, 0),
+    // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create("width"),
     width: "100%",
     [theme.breakpoints.up("sm")]: {
-      width: "20ch",
+      width: "18ch",
       "&:focus": {
         width: "20ch",
       },
@@ -144,18 +145,15 @@ function App() {
 
               {/* SearchBar Starts */}
               <Box sx={{ flexGrow: 1 }} className="searchInput">
-                <Toolbar>
-                  <Search>
-                    <SearchIconWrapper>
-                      <SearchIcon />
-                    </SearchIconWrapper>
-                    <StyledInputBase
-                      className="Search"
-                      placeholder="Search…"
-                      inputProps={{ "aria-label": "search" }}
-                    />
-                  </Search>
-                </Toolbar>
+                <Search>
+                  <SearchIconWrapper>
+                    <SearchIcon />
+                  </SearchIconWrapper>
+                  <StyledInputBase
+                    placeholder="Search…"
+                    inputProps={{ "aria-label": "search" }}
+                  />
+                </Search>
               </Box>
               {/* SearchBar Ends */}
 
@@ -164,10 +162,23 @@ function App() {
                 value={value}
                 onChange={handleChange}
                 aria-label="icon label tabs example"
+                className="app--Lists"
               >
-                <Tab icon={<PersonOutlineOutlinedIcon />} label="Profile" />
-                <Tab icon={<FavoriteBorderIcon />} label="Wishlist" />
-                <Tab icon={<ShoppingBagOutlinedIcon />} label="Bag" />
+                <Tab
+                  icon={<PersonOutlineOutlinedIcon />}
+                  label="Profile"
+                  size="small"
+                />
+                <Tab
+                  icon={<FavoriteBorderIcon />}
+                  label="Wishlist"
+                  size="small"
+                />
+                <Tab
+                  icon={<ShoppingBagOutlinedIcon />}
+                  label="Bag"
+                  size="small"
+                />
               </Tabs>
               {/* Notification Ends */}
             </Toolbar>
